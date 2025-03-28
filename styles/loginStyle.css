@@ -1,14 +1,97 @@
 .corpoLogin {
+    color: #25343D;
     display: flex;
     height: 100%;
     width: 100%;
 }
-
 .quadrado {
     width: 620px;
     height: 466px;
     border: 2px solid #969696;
     background-color: #EBF2F6;
-    border-radius: 40px;
+    box-shadow: 10px 10px 7px -8px #76797a; 
+    align-content: center;
+    align-items: center;
+    border-radius: 35px;
     margin: auto;
+}
+.conteudoQuadrado{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-bottom: auto;
+}
+.loginTitulo {
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+.loginTitulo h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 17.1%;
+}
+.loginInputs {
+    font-size: 20px;
+    align-items: start;
+    margin: 0;
+}
+.loginInputs input {
+    width: 380px;
+    height: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid #969696;
+    padding: 15px;
+    margin: auto;
+}
+.loginInputs input:first-of-type {
+    margin-bottom: 20px; 
+}
+.loginInputs input::placeholder {
+    padding: 0px;
+    text-align: start;
+    vertical-align: middle;
+    color: #CCCCCC;
+}
+.loginInputs p {
+    padding: 5px;
+}
+.embaixo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 66.2%;
+    padding: 10px;
+    margin-top: 20px;
+    gap: 20px;
+}
+.esqueceuSenha {
+    line-height: 19px;
+    flex: 1;
+    font-size: 13px;
+    margin-left: 1.1%;
+    margin-right: 20px;
+}
+.botaoEntrar {
+    flex: none;
+}
+.botaoEntrar button {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    width: 125px;
+    height: 32px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #677D89;
+    border: 1px solid #969696;
+    margin-bottom: 19px;
+}
+.botaoEntrar button:hover {
+    background-color: #25343D;
+    transition: 0.5%;
 }

@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     width: 100%;
     background-color: #C7C7C7;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*Todas as páginas vão ter alguns elementos iguais, tipografia, tamanho e estilo do título, background, dentre outros*/
