@@ -1,8 +1,8 @@
-body{
+html, body {
     height: 100%;
-    background-color: #c6c6c6;
+    width: 100%;
+    background-color: #C7C7C7;
 }
-
 
 /*Todas as páginas vão ter alguns elementos iguais, tipografia, tamanho e estilo do título, background, dentre outros*/
 /*Esses estilos vão ficar aqui no index.css*/
