@@ -1,0 +1,18 @@
+body{
+    height: 100%;
+    background-color: #c6c6c6;
+}
+
+
+/*Todas as páginas vão ter alguns elementos iguais, tipografia, tamanho e estilo do título, background, dentre outros*/
+/*Esses estilos vão ficar aqui no index.css*/
+/*
+label de formulários devem ter a classe - labelFormulario
+letras miudas, as que são cinzinha no figma, tem a classe letrasMiudas
+titulos de página tem a classe titulo
+os títulos da página que vão estar dentro da tag header, com exceção do login
+o body tem uma div dentro com todo o conteúdo da página que se chama "corpoTodo", olhem como refêrencia a página agendamento.html, é isso <3
+
+o footer é só copiar e colar pra todas as páginas com a exceção do login, que só vai ter os botões de acessibilidade
+
+*/
