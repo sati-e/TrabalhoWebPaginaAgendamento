@@ -35,6 +35,9 @@
     margin-left: 17.1%;
 }
 .loginInputs {
+    display: flex;
+    flex-direction: column;
+    position: relative;
     font-size: 20px;
     align-items: start;
     margin: 0;
@@ -60,12 +63,14 @@
 .loginInputs p {
     padding: 5px;
 }
-.loginInputs i {
+
+.eye i {
     font-size: 30px;
     cursor: pointer;
     position: absolute;
-    left: 67.5%;
-    top: 52.69%;
+    left: 88%;
+    top: 78.1%;
+    margin: auto;
 }
 .embaixo {
     display: flex;
