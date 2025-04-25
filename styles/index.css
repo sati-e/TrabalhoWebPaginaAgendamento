@@ -1,6 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 html, body {
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
     background-color: #C7C7C7;
     font-family: 'Poppins', sans-serif;
 }
@@ -17,3 +23,18 @@ o body tem uma div dentro com todo o conteúdo da página que se chama "corpoTod
 o footer é só copiar e colar pra todas as páginas com a exceção do login, que só vai ter os botões de acessibilidade
 
 */
+.corpoTodo{
+        background-image: linear-gradient(rgba(83,109,123),rgba(235,242,246)15% ); 
+        margin:0 5%;
+}
+.titulo{
+    height: 10vh;
+    font-size: 40pt;
+    text-align: center;
+    color: #23343d ;
+    font-family:'Poppins',sans-serif;
+}
+strong{
+    font-weight: 600;
+}
+

@@ -1,0 +1,25 @@
+
+
+.resumoInformacoes{
+    margin: 5% 18% 10%;
+}
+.info{
+    padding: 8%;
+    border-style: dashed;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 4%;
+    text-align: center left;
+    font-size: 18pt;
+   
+    
+    
+}
+.botoes{
+
+}
+a{
+    
+    color: grey;
+}
+
