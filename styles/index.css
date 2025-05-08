@@ -3,6 +3,7 @@ html, body {
     width: 100%;
     background-color: #C7C7C7;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 /*Todas as páginas vão ter alguns elementos iguais, tipografia, tamanho e estilo do título, background, dentre outros*/
@@ -17,3 +18,15 @@ o body tem uma div dentro com todo o conteúdo da página que se chama "corpoTod
 o footer é só copiar e colar pra todas as páginas com a exceção do login, que só vai ter os botões de acessibilidade
 
 */
+
+
+.corpoTodo{
+    background: linear-gradient( #536D7B 10%, #EBF2F6 80%, #536D7B 10%);
+
+    width: 90%;
+    margin:0 5% 0 5%;
+
+    height: 100%;
+
+    
+}
