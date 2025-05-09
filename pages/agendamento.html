@@ -5,7 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../styles/clear.css"/>
     <link rel="stylesheet" type="text/css" href="../styles/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/agendamento.css"/>
     <title>Agendamento</title>
 </head>
 <body>
+
+    <div class="corpoTodo">
+        <div class="titulo">Agende sua Consulta</div>
+        <!--Hospitais-->
+        <div class="inputForm">
+            <div class="labelFormulario">
+                <label for="hospitais">Hospitais:</label>
+            </div>
+            <div class="entrada">
+                <select name="hospitais">
+                    <option value="">--Selecione uma Opção--</option>
+                    <option value="anchieta">Hospital Anchieta</option>
+                    <option value="anaNery">Hospital Anchieta</option>
+                    <option value="santaMarta">Hospital Santa Marta</option>
+                </select>
+            </div>
+        </div>
+        <!--consulta-->
+        <div class="inputForm">
+            <div class="labelFormulario">
+                <label for="consulta">Consulta ou Exame</label>
+            </div>
+            <div class="entrada">
+                <select name="consulta">
+                    <option value="">--Selecione uma Opção--</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="exame">Exame</option>
+                </select>
+            </div>
+        </div>
+        <!--Especialidade-->
+        <div class="inputForm">
+            <div class="labelFormulario">
+                <label for="especialidade">Especialidade:</label>
+            </div>
+            <div class="entrada">
+                <select name="especialidade">
+                    <option value="">--Selecione uma Opção--</option>
+                    <option value="ortopedia">Ortopedia</option>
+                    <option value="psiquiatria">Psiquiatria</option>
+                    <option value="radiografia">Radiografia</option>
+                </select>
+            </div>
+        </div>
+        
+        <!--Medicos-->
+        <div class="inputForm">
+            <div class="labelFormulario">
+                <label for="medicos">Medicos:</label>
+            </div>
+            <div class="entrada">
+                <select name="medicos">
+                    <option value="">--Selecione uma Opção--</option>
+                    <option value="ambrosioMarcos">Dr. Ambrosio Marcos</option>
+                    <option value="mariaSilva">Dra. Maria da Silva</option>
+                    <option value="joseSilva">Dr. José da Silva</option>
+                </select>
+            </div>
+        </div>
+        <div class="parteDeBaixo">
+            <div class="letrasMiudas">
+                Um e-mail será enviado após a confirmação das informações e na data anterior confirmando a Consulta/Exame.
+            </div>
+
+            <div class="botaoEnviar">
+                <button type="submit">Enviar</button>
+            </div>
+        </div>
+
+    </div>
+
+
 </html>
