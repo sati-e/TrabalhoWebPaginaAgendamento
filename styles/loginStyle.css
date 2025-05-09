@@ -63,7 +63,6 @@
 .loginInputs p {
     padding: 5px;
 }
-
 .eye i {
     font-size: 30px;
     cursor: pointer;
@@ -72,12 +71,17 @@
     top: 78.1%;
     margin: auto;
 }
+.lembrarCadastro {
+    margin-top: 20px;
+    position: relative;
+    right: 120px;
+}
 .embaixo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 66.2%;
-    padding: 10px;
+    padding: 0px;
     margin-top: 20px;
     gap: 20px;
 }
