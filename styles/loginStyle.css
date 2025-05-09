@@ -74,7 +74,8 @@
 .lembrarCadastro {
     margin-top: 20px;
     position: relative;
-    right: 120px;
+    right: 134px;
+    font-size: 13px;
 }
 .embaixo {
     display: flex;
