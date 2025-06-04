@@ -1,3 +1,19 @@
-.corpoTodo{
-    text-align: center;
+.inputForm{
+    margin: 2%;
+}
+
+.parteDebaixo{
+    width: 33%;
+    padding-left: 100%;
+    
+}
+
+button{
+    margin: 0 40%;
+    font-size: 20pt;
+    color: #ffffff;
+    background-color: #677D89;
+    width: 15%;
+    border: none;
+    border-radius: 15px;
 }
