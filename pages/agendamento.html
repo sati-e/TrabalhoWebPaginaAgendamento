@@ -5,7 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../styles/clear.css"/>
     <link rel="stylesheet" type="text/css" href="../styles/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/agendamento.css"/>
     <title>Agendamento</title>
-</head>
 <body>
+  <div class="corpoTodo ">
+    <div class="titulo">Agende Sua Consulta</div>
+
+    <div class="formularios">
+
+      <div class="hospitaisForm">
+        <!--Hospital -->
+        <label class="labelFormulario" for="hospitais">Hospital: </label>
+        <select name="hospitais" id="hospitais">
+        
+          
+          <option value="">--Selecione uma Ação--</option>
+
+          <option value="anchieta">Hospital Achieta</option>
+        
+          <option value="anaNery">Hospital Ana Nery</option>
+        
+          <option value="santaMarta">Hospital Santa Marta</option>
+        
+        </select> 
+      </div>
+      <div class="consultaForm">
+        <!--Consulta-->
+        <label class="labelFormulario" for="consulta">Consulta ou Exame: </label>
+        <select name="consulta" id="consulta">
+        
+          
+          <option value="consulta">Consulta</option>
+          <option value="exame">Exame</option>
+        
+        </select> 
+      </div>
+
+      <div class="especialidadeForm">
+      <!--Especialidade-->
+      <label class="labelFormulario" for="especialidade">Especialidade: </label>
+        <select name="especialidade" id="especialidade">
+        
+          
+          <option value="">--Selecione uma Ação--</option>
+
+          <option value="cardiologia">Cardiologia</option>
+        
+          <option value="ortopedia">Ortopedia</option>
+        
+          <option value="psiquiatria">Psiquiatria</option>
+        
+          <option value="raioX">Radiografia</option>
+        
+        
+        </select> 
+      </div>
+
+      <div class="medicosDiv">
+      <!--Medicos-->
+        <label class="labelFormulario" for="medicos">Médicos: </label>
+        <select name="medicos" id="medicos">
+        
+        
+          <option value="">--Selecione uma Ação--</option>
+          <option value="joaoBatista">Joao Batista</option>
+          <option value="mariaSilva">Maria Silva</option>
+          <option value="joseSila">Jose Silva</option>
+        
+        </select> 
+      </div>
+      <div class="dataForm">
+        <!--Datas VAI SER ALTERADA PRA UM CALENDARIO-->
+        <label class="labelFormulario" for=""></label>
+        <select name="" id="">
+        
+        
+          <option value="">--Selecione uma Ação--</option>
+        
+        </select> 
+      </div>
+
+    </div>
+
+    <div class="letrasMiudas">
+      Um e-mail será enviado após a confirmação das informações e na data anterior confirmando a Consulta/Exame.
+    </div>
+    <div class="botao">
+      
+      <button type="submit">Enviar</button>
+    </div>
+  </div>
+
+</body>
 </html>

@@ -1,5 +1,6 @@
 .corpoLogin {
-    color: #25343D;
+   dow: 10px 10px 7px -8px #76797a; 
+    align-content: c color: #25343D;
     display: flex;
     height: 100%;
     width: 100%;
@@ -9,8 +10,7 @@
     height: 466px;
     border: 2px solid #969696;
     background-color: #EBF2F6;
-    box-shadow: 10px 10px 7px -8px #76797a; 
-    align-content: center;
+    box-shaenter;
     align-items: center;
     border-radius: 35px;
     margin: auto;

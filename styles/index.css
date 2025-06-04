@@ -25,16 +25,30 @@ o footer é só copiar e colar pra todas as páginas com a exceção do login, q
 
 */
 .corpoTodo{
-        background-image: linear-gradient(rgba(83,109,123),rgba(235,242,246)15% ); 
+        background: linear-gradient(rgba(83,109,123),rgba(235,242,246)15% ); 
         margin:0 5%;
+        justify-content: center;
 }
+
 .titulo{
     height: 10vh;
     font-size: 40pt;
+    font-weight: bold;
     text-align: center;
-    color: #23343d ;
+    color: #25343D ;
     font-family:'Poppins',sans-serif;
 }
+
+.labelFormulario{
+    font-size: 20pt;
+    font-weight: 300;
+}
+.letrasMiudas{
+    font-size:12pt;
+    color:#00000099;
+}
+
+
 strong{
     font-weight: 600;
 }
