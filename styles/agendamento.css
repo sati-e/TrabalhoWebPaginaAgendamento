@@ -17,3 +17,20 @@ button{
     border: none;
     border-radius: 15px;
 }
+
+
+.comboBoxes {
+  width: 30%;
+  padding: 1% 2%;
+  border-radius: 10px;
+  border: 1px solid #b3b3b3;
+  background-color: #fff;
+  font-size: 12pt;
+  color: #000;
+}
+
+.comboBoxes:focus {
+  outline: none;
+  border-color: #7aa6d6;
+  box-shadow: 0 0 0 2px rgba(122, 166, 214, 0.3);
+}
