@@ -9,9 +9,14 @@ html, body {
     padding: 0;
     background-color: #C7C7C7;
     font-family: 'Poppins', sans-serif;
-    
+    height: 100%;
 }
 
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
 /*Todas as páginas vão ter alguns elementos iguais, tipografia, tamanho e estilo do título, background, dentre outros*/
 /*Esses estilos vão ficar aqui no index.css*/
 /*
@@ -25,9 +30,10 @@ o footer é só copiar e colar pra todas as páginas com a exceção do login, q
 
 */
 .corpoTodo{
-        background: linear-gradient(rgba(83,109,123),rgba(235,242,246)15% ); 
-        margin:0 10%;
-        width: 80%;
+    background: linear-gradient(rgba(83,109,123),rgba(235,242,246)15% ); 
+    margin:0 10%;
+    width: 80%;
+    flex: 1;
         
 }
 
@@ -55,7 +61,6 @@ strong{
 }
 
 
-
 .acessibilidade{
     position: fixed ;
     bottom: 20%;
@@ -70,5 +75,15 @@ strong{
 .iconeAcessibilidade:hover{
     width:75%;
     transition: 0.5s;
+}
+
+.rodape{
+    background: linear-gradient(rgba(235,242,246), rgba(83,109,123)15% ); 
+    color: white;
+    text-align: center;
+    margin:0 10%;
+    width: 80%; 
+    position: absolute;
+    bottom: 0;
 }
 
