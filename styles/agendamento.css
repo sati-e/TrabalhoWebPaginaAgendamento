@@ -1,5 +1,17 @@
+.conteudo{
+    padding-left: 40%;
+    flex-direction: column;
+    align-items: center;
+}
+
 .inputForm{
     margin: 2%;
+}
+
+.formularios{
+    margin: auto 0 auto 40%;
+    width: 50%;
+
 }
 
 .parteDebaixo{
@@ -8,19 +20,14 @@
     
 }
 
-button{
-    margin: 0 40%;
-    font-size: 20pt;
-    color: #ffffff;
-    background-color: #677D89;
-    width: 15%;
-    border: none;
-    border-radius: 15px;
+.labelFormulario{
+    display: block;
+    margin: 1%;
+    margin-left: 1.5%;
 }
 
-
 .comboBoxes {
-  width: 30%;
+  width: 33%;
   padding: 1% 2%;
   border-radius: 10px;
   border: 1px solid #b3b3b3;
@@ -33,4 +40,21 @@ button{
   outline: none;
   border-color: #7aa6d6;
   box-shadow: 0 0 0 2px rgba(122, 166, 214, 0.3);
+}
+
+
+
+.letrasMiudas{
+    text-align: center;
+    margin: 1% 35%;
+}
+
+.botao{
+    width: 15%;
+    font-size: 20pt;
+    color: #ffffff;
+    background-color: #677D89;
+    border: 1px solid #b3b3b3;
+    border-radius: 40px;
+    margin-left: 42%;
 }
