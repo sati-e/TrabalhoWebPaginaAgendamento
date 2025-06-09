@@ -15,5 +15,42 @@
 }
 
 .labelFormulario{
+    display: block;
     font-family: 'Poppins';
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #25343D;
+    font-weight: 500;
+}
+
+.formsEspacamento{
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+input{
+    border-radius: 8px;
+    border-width: thin;
+}
+
+#letrasMiudas{
+    font-size: 12px;
+    opacity: 50%;
+    margin-bottom: 10px;
+}
+
+#termoServico{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#botao{
+    width: 15%;
+    font-size: 15pt;
+    color: #ffffff;
+    background-color: #677D89;
+    border: 1px solid #b3b3b3;
+    border-radius: 40px;
+    margin-left: 42%;
+    margin-bottom: 6%;
 }
