@@ -2,6 +2,10 @@
 
 .boxInfo{
     margin: 2%;
+    border-style: dotted;
+    border-width: 1px;
+    border-radius: 10px;
+    
 }
 
 .info{
@@ -11,5 +15,5 @@
 }
 
 .labelFormulario{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
