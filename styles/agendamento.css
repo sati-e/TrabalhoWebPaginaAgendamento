@@ -10,7 +10,7 @@
 .formularios{
     margin: auto 0 auto 40%;
     width: 50%;
-
+    margin-top: 3%;
 }
 
 .parteDebaixo{
@@ -23,6 +23,7 @@
     display: block;
     margin: 1%;
     margin-left: 1.5%;
+    margin-top: 4%;
 }
 
 .comboBoxes {
@@ -56,4 +57,5 @@
     border: 1px solid #b3b3b3;
     border-radius: 40px;
     margin-left: 42%;
+    margin-bottom: 6%;
 }
