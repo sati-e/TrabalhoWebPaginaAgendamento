@@ -10,8 +10,10 @@
 .info{
     margin: 0 8%;
 
+    margin-top: 5%;
     background-color: white;
     padding: 12%;
+    border: #969696;
     border-style: dashed;
     border-width: 2px;
     border-style: dashed;
@@ -37,11 +39,20 @@ a{
         
         width:80%;
         margin: 0 10%;
-}
+    }
+    footer, .rodape{
+        width: 80%;
+        margin: 0 10%;
+    }
+
     
  }
  @media (max-width: 1440px){
     .corpoTodo{
+        width: 70%;
+        margin: 0 15%;
+    }
+    footer, .rodape{
         width: 70%;
         margin: 0 15%;
     }
@@ -50,6 +61,10 @@ a{
 }
 @media (max-width: 1920px){
     .corpoTodo{
+        width: 60%;
+        margin: 0 20%;
+    }
+    footer, .rodape{
         width: 60%;
         margin: 0 20%;
     }
