@@ -8,7 +8,13 @@
     <link rel="stylesheet" type="text/css" href="../styles/agendamento.css"/>
     <title>Agendamento</title>
 <body>
-  
+             
+    <nav>
+            <a class="pages" href="login.html">Login</a>
+            <a class="pages" href="agendamento.html">Agendamento</a>
+            <a class="pages" href="agenResultado.html">Resultado do Agendamento</a>
+            <a class="pages" href="cadastro.html">Cadastro</a>
+    </nav>
   <div class="conteudo">
     <div class="corpoTodo ">
 
@@ -80,13 +86,8 @@
           </div>
           <div class="dataForm">
             <!--Datas VAI SER ALTERADA PRA UM CALENDARIO-->
-            <label class="labelFormulario" for=""></label>
-            <select class="comboBoxes" name="" id="">
-            
-            
-              <option value="">--Selecione uma Ação--</option>
-            
-            </select> 
+            <label class="labelFormulario" for="dataAgendamento">Datas Disponíveis: </label>
+            <input class="comboBoxes" type="date" name="dataAgendamento"> 
           </div>
         </div>
 
@@ -94,9 +95,10 @@
           Um e-mail será enviado após a confirmação das informações e na data anterior confirmando a Consulta/Exame.
         </div>
 
-        <div class="agendarBotao ">
-          <button class="botao" type="submit">Agendar</button>
-        </div>
+       <div class="agendarBotao ">
+          <a href="agenResultado.html"><button class="botao" type="button" id="btnAgendar">Agendar</button></a>
+         </div>
+       
 
 
 
@@ -106,6 +108,7 @@
     <footer>
 
       <div class="acessibilidade">
+
         <img class="iconeAcessibilidade" src="../assets/images/hearingAid.png" alt="Ícone de acessibilidade para auxílio auditivo">
         <img class="iconeAcessibilidade" src="../assets/images/visionAid.png" alt="Ícone de acessibilidade para auxílio visual">
         <img class="iconeAcessibilidade" src="../assets/images/signAid.png" alt="Ícone de acessibilidade para auxílio com linguagem de sinais">
@@ -125,7 +128,7 @@
     </footer>
 
   </div>
-
+  
 </body>
 
 </html>

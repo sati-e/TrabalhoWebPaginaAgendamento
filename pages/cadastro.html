@@ -9,6 +9,13 @@
     <title>Cadastro</title>
 </head>
 <body>
+    
+    <nav>
+            <a class="pages" href="login.html">Login</a>
+            <a class="pages" href="agendamento.html">Agendamento</a>
+            <a class="pages" href="agenResultado.html">Resultado do Agendamento</a>
+            <a class="pages" href="cadastro.html">Cadastro</a>
+    </nav> 
     <div class="conteudo">
         <div class="corpoTodo">
             <div class="titulo">
@@ -20,15 +27,15 @@
                 <div id="boxInfoPessoais">
                     <form>
                         <div class="formsEspacamento">
-                            <label for="nome" class="labelFormulario">Nome Completo:*</label>
+                            <label for="nome" class="labelFormulario">Nome Completo:<span class="obrigatorio">*</span></label>
                             <input type="text" id="nomeCompleto" placeholder="Ex.: Mariana Pereia Alves">
                         </div>
                         <div class="formsEspacamento">
-                            <label for="cpf" class="labelFormulario">CPF:*</label>
+                            <label for="cpf" class="labelFormulario">CPF:<span class="obrigatorio">*</span></label>
                             <input type="number" id="cpfCadastro" maxlength="11" placeholder="Ex.: 000.000.000-00">
                         </div>
                         <div class="formsEspacamento">
-                            <label for="dataNascimento" class="labelFormulario">Data de Nascimento:*</label>
+                            <label for="dataNascimento" class="labelFormulario">Data de Nascimento:<span class="obrigatorio">*</span></label>
                             <input type="date" id="dataDeNascimento" placeholder="dd/mm/aaaa">
                         </div>
                         <div class="formsEspacamento">
@@ -44,7 +51,7 @@
                             </select>
                         </div>
                         <div class="formsEspacamento">
-                            <label for="pcd" class="labelFormulario">PCD:*</label>
+                            <label for="pcd" class="labelFormulario">PCD:<span class="obrigatorio">*</span></label>
                             <select name="pcd" id="pcd">
                                 <option value="" disabled selected>Selecione</option>
                                 <option value="sim">Sim</option>
@@ -70,11 +77,11 @@
                         </div>
                         </div>
                         <div class="formsEspacamento">
-                            <label for="numTelefone" class="labelFormulario">N° de Telefone:*</label>
+                            <label for="numTelefone" class="labelFormulario">N° de Telefone:<span class="obrigatorio">*</span></label>
                             <input type="tel" id="celular" maxlength="11" placeholder="Ex.: (00) 00000-0000">
                         </div>
                         <div class="formsEspacamento">
-                            <label for="contEmergencia" class="labelFormulario">Contato de Emergência:*</label>
+                            <label for="contEmergencia" class="labelFormulario">Contato de Emergência:<span class="obrigatorio">*</span></label>
                             <input type="tel" id="contEmergencia" maxlength="11" placeholder="Ex.: (00) 00000-0000">
                         </div>
                     </form>
@@ -84,10 +91,10 @@
                 <div id="boxInfoResidencia">
                     <form>
                         <div class="formsEspacamento">
-                            <label for="cep" class="labelFormulario">CEP:*</label>
+                            <label for="cep" class="labelFormulario">CEP:<span class="obrigatorio">*</span></label>
                             <input type="text" id="cep" maxlength="8" placeholder="Ex.: 00000-000">
                         </div>
-                        <div class="formsEspacamento"><label for="uf" class="labelFormulario">UF:*</label>
+                        <div class="formsEspacamento"><label for="uf" class="labelFormulario">UF:<span class="obrigatorio">*</span></label>
                             <select name="unidadeFederativa" id="unidadeFederativa">
                                 <option value="" disabled selected>Selecione</option>
                                 <option value="acre">AC</option>
@@ -121,15 +128,15 @@
                         </div>    
                         </div>
                         <div class="formsEspacamento">
-                            <label for="cidade" class="labelFormulario">Cidade:*</label>
+                            <label for="cidade" class="labelFormulario">Cidade:<span class="obrigatorio">*</span></label>
                             <input type="text" id="cidade">
                         </div>
                         <div class="formsEspacamento">
-                            <label for="rua" class="labelFormulario">Rua:*</label>
+                            <label for="rua" class="labelFormulario">Rua:<span class="obrigatorio">*</span></label>
                             <input type="text" id="rua">
                         </div>
                         <div class="formsEspacamento">
-                            <label for="numeroEnd" class="labelFormulario">Número:*</label>
+                            <label for="numeroEnd" class="labelFormulario">Número:<span class="obrigatorio">*</span></label>
                             <input type="number" name="numeroEndereco" id="numeroEnd">
                         </div>
                         <div class="formsEspacamento">
@@ -147,18 +154,18 @@
                     <div id="boxInfoCadastro">
                         <form>
                             <div class="formsEspacamento">
-                                <label for="email" class="labelFormulario">Email:*</label>
+                                <label for="email" class="labelFormulario">Email:<span class="obrigatorio">*</span></label>
                                 <input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
                             </div>
                             <div class="formsEspacamento">
-                                <label for="senha" class="labelFormulario">Senha:*</label>
+                                <label for="senha" class="labelFormulario">Senha:<span class="obrigatorio">*</span></label>
                                 <input type="password" name="senha" id="senha" placeholder="********">
                             </div>
                             <div class="formsEspacamento">
-                                <label for="senhaConfirmacao" class="labelFormulario">Confirme sua Senha:*</label>
+                                <label for="senhaConfirmacao" class="labelFormulario">Confirme sua Senha:<span class="obrigatorio">*</span></label>
                                 <input type="password" name="senhaConfirmacao" id="senhaConfirmacao" placeholder="********">
                             </div>
-                            <div id="letrasMiudas">
+                            <div class="letrasMiudas">
                                 <ul>
                                     <li>8 caracteres</li>
                                     <li>Pelo menos uma letra maiúscula</li>
@@ -167,13 +174,15 @@
                             </div>
                             <div id="termoServico">
                                 <input type="checkbox" name="termoServico" id="termoServico">
-                                <label for="termoServico">Ao selecionar a caixa você concorda com os <a href="">termos e condições*</a></label>
+                                <label for="termoServico">Ao selecionar a caixa você concorda com os <a href="">termos e condições<span class="obrigatorio">*</span></a></label>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div id="confirmacao">
+                    <a href="./login.html">
                     <button id="botao">Finalizar Cadastro</button>
+                    </a>
                 </div>
 
 
