@@ -1,5 +1,4 @@
 .corpoLogin {
-    box-shadow: 10px 10px 7px -8px #76797a; 
     align-content: c ;
     color: #25343D;
     display: flex;
@@ -114,7 +113,10 @@
     background-color: #25343D;
     transition: 0.5%;
 }
-.iconsAcessibilidade {
-    position: absolute;
-    width: 10px;
+footer{
+    background:none;
+    padding: 0;
+    margin: 0;
+    height: 0;
+    width: 0;
 }
