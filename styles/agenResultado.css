@@ -1,25 +1,66 @@
 
 
 .resumoInformacoes{
-    margin: 5% 18% 10%;
-}
-.info{
-    padding: 8%;
+    margin: 0 18%;
+    margin-top: 5%;
+    background-color: white;
+    padding: 0%;
+    border: #969696;
     border-style: dashed;
     border-width: 2px;
     border-style: dashed;
+    width: 60%;
     border-radius: 4%;
     text-align: center left;
     font-size: 18pt;
-   
-    
-    
+    box-shadow: 15px 15px 7px -8px #76797a;
 }
-.botoes{
 
+.info{
+    padding-top: 10%;
+    padding-left: 18%;
 }
+
 a{
     
     color: grey;
 }
 
+
+@media (max-width: 860px){
+    .corpoTodo{
+        
+        width:80%;
+        margin: 0 10%;
+    }
+    footer, .rodape{
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    
+ }
+ @media (max-width: 1440px){
+    .corpoTodo{
+        width: 70%;
+        margin: 0 15%;
+    }
+    footer, .rodape{
+        width: 70%;
+        margin: 0 15%;
+    }
+    
+
+}
+@media (max-width: 1920px){
+    .corpoTodo{
+        width: 60%;
+        margin: 0 20%;
+    }
+    footer, .rodape{
+        width: 60%;
+        margin: 0 20%;
+    }
+    
+
+}

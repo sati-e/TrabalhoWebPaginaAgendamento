@@ -1,0 +1,86 @@
+.conteudo{
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputForm{
+    margin: 2%;
+}
+
+.formularios{
+    margin: auto 0 auto 38.5%;
+    width: 40%;
+    margin-top: 3%;
+}
+
+.parteDebaixo{
+    width: 33%;
+    padding-left: 100%;
+}
+
+.labelFormulario{
+    display: block;
+    margin: 1%;
+    margin-left: 1.5%;
+    margin-top: 4%;                                  
+}
+
+.comboBoxes {
+  width: 55%;
+  padding: 1% 2%;
+  border-radius: 10px;
+  border: 1px solid #b3b3b3;
+  background-color: #fff;
+  font-size: 13pt;
+  color: #000;
+}
+
+#selecionar{
+    color: #cccccc;
+}
+.comboBoxData {
+justify-content: space-between;
+  width: 52.5%;
+  padding: 1% 0.1% 1% 2%;
+  border-radius: 10px;
+  border: 1px solid #b3b3b3;
+  background-color: #fff;
+  font-size: 13pt;
+  color: #000;
+}
+
+.comboBoxes:focus {
+  outline: none;
+  border-color: #7aa6d6;
+  box-shadow: 0 0 0 2px rgba(122, 166, 214, 0.3);
+}
+
+.letrasMiudas{
+    text-align: center;
+    justify-content: space-between;
+    margin: 2% 40%;
+    line-height: 15px;
+}
+
+.agendarBotao {
+    margin: 0% auto;
+    position: relative;
+    padding: auto;
+    margin-left: 45%;
+}
+
+.botao{
+    width:  125px;
+    font-size: 20px;
+    height: 32px;
+    color: #ffffff;
+    background-color: #677D89;
+    border: 1px solid #b3b3b3;
+    border-radius: 15px;
+    margin-bottom: 6%;
+}
+.agendarBotao button:hover {
+    background-color: #25343D;
+    transition: 0.5%;
+}
+

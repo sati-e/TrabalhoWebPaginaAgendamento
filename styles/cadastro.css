@@ -1,0 +1,72 @@
+
+.boxInfo{
+    display: flex;
+    flex-wrap: wrap;   
+    gap: 16px;
+    align-items: flex-start;
+    margin: 2%;
+    border-radius: 10px;
+    border: 2px dashed #969696 ;
+}
+
+.info{
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 30px;
+    color: #25343D;
+}
+.obrigatorio{
+    color: red;
+}
+
+.labelFormulario{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #25343D;
+    font-weight: 500;
+}
+
+.formsEspacamento{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input, select{
+    border-radius: 8px;
+    outline: none;
+}
+
+.letrasMiudas{
+    margin-left: 2%;
+}
+
+#termoServico{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#botao{
+    width: 15%;
+    font-size: 15pt;
+    color: #ffffff;
+    background-color: #677D89;
+    border: 1px solid #b3b3b3;
+    border-radius: 40px;
+    margin-left: 42%;
+    margin-bottom: 6%;
+}
+
+#botao:hover{
+    background-color: #5a6c77;
+    transition: 0.3s;
+}
+
+#botao:active{
+    background-color: #4d6069;
+    transition: 0.1s;
+}
+

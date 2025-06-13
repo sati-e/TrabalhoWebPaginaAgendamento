@@ -9,9 +9,35 @@ html, body {
     padding: 0;
     background-color: #C7C7C7;
     font-family: 'Poppins', sans-serif;
-    
 }
 
+nav{
+    text-align: center;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+}
+nav a:active{
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: #000;
+    text-decoration: none;
+}
+
+.pages{
+    margin-right: 3%;
+}
+.conteudo{ 
+    margin:0;
+    display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+}
 /*Todas as páginas vão ter alguns elementos iguais, tipografia, tamanho e estilo do título, background, dentre outros*/
 /*Esses estilos vão ficar aqui no index.css*/
 /*
@@ -25,17 +51,74 @@ o footer é só copiar e colar pra todas as páginas com a exceção do login, q
 
 */
 .corpoTodo{
-        background-image: linear-gradient(rgba(83,109,123),rgba(235,242,246)15% ); 
-        margin:0 5%;
+    background: linear-gradient(rgba(83,109,123),rgba(235,242,246)20% ); 
+    margin:0 10%;
+    width: 80%;
+    flex: 1;
+    height: 80%;  
 }
+
 .titulo{
+    letter-spacing: 10%;
+    margin-top: 3%;
     height: 10vh;
-    font-size: 40pt;
+    font-size: 30pt;
+    font-weight: bold;
     text-align: center;
-    color: #23343d ;
+    color: #25343D ;
     font-family:'Poppins',sans-serif;
+}
+
+.labelFormulario{
+    font-size: 20px;
+    font-weight: 400;
 }
 strong{
     font-weight: 600;
 }
 
+.letrasMiudas{
+    font-size:10pt;
+    color: #5e6162;
+    font-style: italic;
+}
+
+.acessibilidade{
+    position: fixed ;
+    bottom: 20%;
+    right: 0;
+}
+.iconeAcessibilidade{
+    display: block;
+    padding-top: 10%;
+    width: 70%;
+}
+
+.iconeAcessibilidade:hover{
+    width:75%;
+    transition: 0.5s;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  background: linear-gradient(rgba(235,242,246), rgba(83,109,123) 80%);
+  padding: 60px 0; 
+  min-height: 200px; 
+  line-height: 30px;
+  font-style: italic;
+}
+.rodape {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 4%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer img{
+    margin-bottom: 40%;
+}
